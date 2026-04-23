@@ -1,2 +1,1 @@
-# avis-project.github.io
-Project page for AVIS
+# avis.github.io

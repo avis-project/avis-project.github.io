@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta http-equiv="refresh" content="5; url="> -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta content="AVIS" property="og:title">
+    <meta content="AVIS" property="twitter:title">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="assets/lightning.svg"/>
+    <title>AVIS</title>
+    <meta name="description" content="AVIS">
+    <meta name="keywords" content="AVIS">
+
+    <meta content="AVIS" property="twitter:title" />
+    <meta content="AVIS" property="twitter:description" />
+
+
+    <meta property="og:image" content="assets/fig_main.jpg">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content=""/>
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="assets/fig_main.jpg" />
+
+    <!-- Google tag (gtag.js) -->
+    <!-- <script async src=""></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-TPWJGFG8CS');
+    </script> -->
+
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <!-- popper used for tooltips -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+   <!-- bootstrap styling used for carousel -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+
+   <link rel="stylesheet" href="./static/css/bulma.min.css">
+   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+   <link rel="stylesheet" href="./static/css/index.css">
+   <link rel="stylesheet" href="./static/css/custom.css">
+   <link rel="stylesheet" href="./static/css/fonts.css">
+
+   <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+   <script defer src="./static/js/fontawesome.all.min.js"></script>
+   <script src="./static/js/interactions.js"></script>
+   <script src="./static/js/bulma-carousel.min.js"></script>
+   <script src="./static/js/bulma-slider.min.js"></script>
+   <meta charset="UTF-8">
+
+    <style>
+      .center-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+
+      .avis-highlight {
+      color: #D76FAD;
+      }
+
+      .avis-flash-highlight {
+      color: #2790D7;
+      }
+
+      .flash-emph {
+      font-style: italic;
+      font-weight: 500;
+      }
+
+      .avis-flash-label {
+      white-space: nowrap;
+      color: #2790D7;
+      }
+    </style>
+
+</head>
+<body>
+    <script src="static/js/select_frame.js"></script>
+
+    <section class="hero">
+        <div class="hero-body" style="padding: 3rem 1.5rem 0.5rem 1.5rem;">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered">
+                    <div class="column has-text-centered">
+                        <h1 class="title is-1 publication-title" style="font-size: 44px; margin-bottom: 1.25rem;"><span class="avis" style="color: #D76FAD;">AVIS</span>: Accelerating Video Inverse Problem Solvers with Autoregressive Diffusion Models</h1>
+                        <!-- <div class="is-size-4 publication-authors"> -->
+                          <!-- Paper authors -->
+                          <!-- <span class="author-block">
+                            <a href="#" target="_blank">Author 1</a><sup>*</sup>,</span>
+                            <span class="author-block">
+                              <a href="#" target="_blank">Author 2</a><sup>*</sup>,</span>
+                                  <span class="author-block"> 
+                                    <a href="#" target="_blank">Author 3</a></span> -->
+                        <!-- </div>  -->
+                          <!-- <div class="is-size-4 publication-authors"> -->
+                            <!-- <span class="author-block" style="color:black"> Conference Year </span> -->
+                              <!-- <br>Conferance name and year</span> -->
+                            <!-- <span class="eql-cntrb" style="color:black"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+                          <!-- </div> -->
+                        
+                        <div class="column has-text-centered">
+                            <div class="publication-links">
+                                <!-- <span class="link-block">
+                                    <a href="#" target="_blank"
+                                    class="external-link button is-normal is-rounded is-dark">
+                                    </ARXIV>
+                                    <span class="icon">
+                                      <i class="ai ai-arxiv"></i>
+                                    </span>
+                                    <span>arXiv</span>
+                                  </a>
+                                </span> -->
+                                
+                                <span class="link-block">
+                                    <span class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                        <i class="fab fa-github"></i>
+                                        </span>
+                                        <span>Code (coming soon)</span>
+                                    </span>
+                                </span>
+                                <!-- <span class="link-block">
+                                    <a href="#" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <img src="assets/hf-logo.svg" />
+                                        </span>
+                                        <span>Demo</span>
+                                    </a>
+                                </span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="padding-top: 0.1em;">
+        <div class="container is-max-desktop">
+            <h2 class="title is-2 is-centered has-text-centered" style="margin-top: 0px;">Overview</h2>
+                <div class="" style="margin-bottom: 30px;">
+                    Diffusion models provide powerful priors for zero-shot video inverse problems, but their real-time deployment is hindered by two inefficiencies: high initial latency caused by holistic video restoration, and low throughput resulting from multiple VAE passes to enforce measurement consistency in pixel space.
+                    To overcome these limitations, we propose Autoregressive Video Inverse problem Solver (<span class="avis-highlight">AVIS</span>).
+                </div>
+            <div class="hero is-full">
+                <div class="results-single">
+                    <img src="assets/fig_main.jpg" style="max-width: 75%; height: auto; display: block; margin: 0 auto;">
+                </div>
+            </div>
+         </div>
+    </section>
+    <hr>
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <h2 class="title is-2 is-centered has-text-centered">
+                <span class="avis-highlight">AVIS</span> and <span class="avis-flash-highlight">AVIS <span class="flash-emph">Flash</span></span>
+            </h2>
+                <div class="hero is-full">
+                    <div class="results-single">
+                        <img src="assets/fig_method.jpg" style="max-width: 75%; height: auto; display: block; margin: 0 auto;">
+                    </div>
+                </div>
+                <!-- <div class="">
+                    The <span class="avis-highlight">AVIS</span> framework leverages autoregressive video diffusion models to restore videos in a streaming manner, naturally eliminating latency bottlenecks.
+                    Additionally, <span class="avis-highlight">AVIS</span> initializes reverse diffusion with a measurement-consistent estimate, reducing the required sampling steps.
+                    While <span class="avis-highlight">AVIS</span> enforces measurement consistency for <span class="flash-emph">every</span> video chunk, we further introduce a highly accelerated variant that enforces measurement consistency solely on the <span class="flash-emph">first</span> video chunk, dubbed <span class="avis-flash-label">AVIS <span class="flash-emph">Flash</span></span>.
+                    Compared to leading non-autoregressive solvers, <span class="avis-highlight">AVIS</span> drastically reduces initial latency from 114s to 4s and increases throughput from 0.71 to 1.18 FPS while achieving superior restoration quality. Pushing efficiency further, <span class="avis-flash-label">AVIS <span class="flash-emph">Flash</span></span> substantially boosts throughput to 5.91 FPS on a single RTX 4090 GPU while maintaining competitive performance, paving the way toward real-time deployment.    
+                </div> -->
+                <div style="margin-top: 0.8rem;">
+                    <strong><span class="avis-highlight">AVIS</span></strong> : AR backbone + measurement-consistent initialization + guidance for <span class="flash-emph">every</span> chunk.<br>
+                    <strong><span class="avis-flash-label">AVIS <span class="flash-emph">Flash</span></span></strong> : same backbone and initialization + guidance only for the <span class="flash-emph">first</span> chunk.<br>
+                </div>
+                <div >
+                    <br>
+                    The <span class="avis-highlight">AVIS</span> framework leverages autoregressive video diffusion models to restore videos in a streaming manner, naturally eliminating latency bottlenecks. 
+                    Additionally, <span class="avis-highlight">AVIS</span> initializes reverse diffusion with a measurement-consistent estimate, reducing the required sampling steps. 
+                    While <span class="avis-highlight">AVIS</span> enforces measurement consistency for <span class="flash-emph">every</span> video chunk, we further introduce a highly accelerated variant that enforces measurement consistency solely on the <span class="flash-emph">first</span> video chunk, dubbed <span class="avis-flash-label">AVIS <span class="flash-emph">Flash</span></span>.
+                </div>
+        </div>
+    </section>
+    <hr>
+   
+    <section id="results" class="section">
+        <div class="container">
+            <h2 class="title is-2 is-centered has-text-centered">Baseline Comparisons</h2>
+
+            <div class="table-container">
+                <table class="table is-fullwidth is-striped is-hoverable is-bordered is-narrow efficiency-table">
+                    <thead>
+                        <tr>
+                            <td></td>
+                            <td>VISION-XL</td>
+                            <td>LVTINO</td>
+                            <td><span class="avis-highlight">AVIS</span></td>
+                            <td><span class="avis-flash-label">AVIS <span class="flash-emph">Flash</span></span></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Latency (s) ↓</th>
+                            <td>167</td>
+                            <td><u>114</u></td>
+                            <td><strong>4</strong></td>
+                            <td><strong>4</strong></td>
+                        </tr>
+                        <tr>
+                            <th>Time (s) ↓</th>
+                            <td>167</td>
+                            <td>114</td>
+                            <td><u>68.5</u></td>
+                            <td><strong>13.7</strong></td>
+                        </tr>
+                        <tr>
+                            <th>FPS (frame/s) ↑</th>
+                            <td>0.49</td>
+                            <td>0.71</td>
+                            <td><u>1.18</u></td>
+                            <td><strong>5.91</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- <p class="has-text-centered is-size-7" style="margin-top: -0.5rem;"> -->
+                <div style="margin-top: -0.5rem; text-align: center;">
+                    <strong>Efficiency comparison on 81 frames of 480x854 resolution video on a single RTX 4090 GPU.</strong> <br>
+                    Our proposed frameworks (<span class="avis-highlight">AVIS</span> and <span class="avis-flash-highlight">AVIS <span class="flash-emph">Flash</span></span>) achieve significant improvements across all efficiency metrics. <strong>Bold</strong>: best, <u>underline</u>: second-best.
+                </div>
+                <!-- </p> -->
+            </div>
+
+            <h3 class="subtitle is-size-5 has-text-centered" style="margin-top: 1.5rem;">Temporal Average</h3>
+            <!-- Set 1 -->
+            <div class="row1">
+                <div class="media1">Measurement</div>
+                <div class="media1">VISION-XL</div>
+                <div class="media1">LVTINO</div>
+                <div class="media1"><span class="avis-highlight">AVIS</span></div>
+                <div class="media1"><span class="avis-flash-label">AVIS <span class="flash-emph">Flash</span></span></div>
+            </div>
+            <div class="row1">
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Temporal Average/1_Measurement.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Temporal Average/1_VISION-XL.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Temporal Average/1_LVTINO.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Temporal Average/1_AVIS.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Temporal Average/1_AVIS-Flash.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <!-- Set 2 -->
+            <div class="row1">
+                <div class="media1">Measurement</div>
+                <div class="media1">VISION-XL</div>
+                <div class="media1">LVTINO</div>
+                <div class="media1"><span class="avis-highlight">AVIS</span></div>
+                <div class="media1"><span class="avis-flash-label">AVIS <span class="flash-emph">Flash</span></span></div>
+            </div>
+            <div class="row1">
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Temporal Average/2_Measurement.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Temporal Average/2_VISION-XL.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Temporal Average/2_LVTINO.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Temporal Average/2_AVIS.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Temporal Average/2_AVIS-Flash.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <!-- Set 3 -->
+            <div class="row1">
+                <div class="media1">Measurement</div>
+                <div class="media1">VISION-XL</div>
+                <div class="media1">LVTINO</div>
+                <div class="media1"><span class="avis-highlight">AVIS</span></div>
+                <div class="media1"><span class="avis-flash-label">AVIS <span class="flash-emph">Flash</span></span></div>
+            </div>
+            <div class="row1">
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Temporal Average/3_Measurement.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Temporal Average/3_VISION-XL.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Temporal Average/3_LVTINO.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Temporal Average/3_AVIS.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Temporal Average/3_AVIS-Flash.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <h3 class="subtitle is-size-5 has-text-centered">Spatio-Temporal Average</h3>
+            <!-- Set 1 -->
+            <div class="row1">
+                <div class="media1">Measurement</div>
+                <div class="media1">VISION-XL</div>
+                <div class="media1">LVTINO</div>
+                <div class="media1"><span class="avis-highlight">AVIS</span></div>
+                <div class="media1"><span class="avis-flash-label">AVIS <span class="flash-emph">Flash</span></span></div>
+            </div>
+            <div class="row1">
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Spatio-Temporal Average/1_Measurement.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Spatio-Temporal Average/1_VISION-XL.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Spatio-Temporal Average/1_LVTINO.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Spatio-Temporal Average/1_AVIS.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Spatio-Temporal Average/1_AVIS-Flash.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <!-- Set 2 -->
+            <div class="row1">
+                <div class="media1">Measurement</div>
+                <div class="media1">VISION-XL</div>
+                <div class="media1">LVTINO</div>
+                <div class="media1"><span class="avis-highlight">AVIS</span></div>
+                <div class="media1"><span class="avis-flash-label">AVIS <span class="flash-emph">Flash</span></span></div>
+            </div>
+            <div class="row1">
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Spatio-Temporal Average/2_Measurement.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Spatio-Temporal Average/2_VISION-XL.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Spatio-Temporal Average/2_LVTINO.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Spatio-Temporal Average/2_AVIS.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Spatio-Temporal Average/2_AVIS-Flash.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <!-- Set 3 -->
+            <div class="row1">
+                <div class="media1">Measurement</div>
+                <div class="media1">VISION-XL</div>
+                <div class="media1">LVTINO</div>
+                <div class="media1"><span class="avis-highlight">AVIS</span></div>
+                <div class="media1"><span class="avis-flash-label">AVIS <span class="flash-emph">Flash</span></span></div>
+            </div>
+            <div class="row1">
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Spatio-Temporal Average/3_Measurement.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Spatio-Temporal Average/3_VISION-XL.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Spatio-Temporal Average/3_LVTINO.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Spatio-Temporal Average/3_AVIS.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Spatio-Temporal Average/3_AVIS-Flash.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <h3 class="subtitle is-size-5 has-text-centered">Inpainting</h3>
+            <!-- Set 1 -->
+            <div class="row1">
+                <div class="media1">Measurement</div>
+                <div class="media1">VISION-XL</div>
+                <div class="media1">LVTINO</div>
+                <div class="media1"><span class="avis-highlight">AVIS</span></div>
+                <div class="media1"><span class="avis-flash-label">AVIS <span class="flash-emph">Flash</span></span></div>
+            </div>
+            <div class="row1">
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Inpainting/1_Measurement.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Inpainting/1_VISION-XL.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Inpainting/1_LVTINO.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Inpainting/1_AVIS.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Inpainting/1_AVIS-Flash.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <!-- Set 2 -->
+            <div class="row1">
+                <div class="media1">Measurement</div>
+                <div class="media1">VISION-XL</div>
+                <div class="media1">LVTINO</div>
+                <div class="media1"><span class="avis-highlight">AVIS</span></div>
+                <div class="media1"><span class="avis-flash-label">AVIS <span class="flash-emph">Flash</span></span></div>
+            </div>
+            <div class="row1">
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Inpainting/2_Measurement.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Inpainting/2_VISION-XL.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Inpainting/2_LVTINO.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Inpainting/2_AVIS.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Inpainting/2_AVIS-Flash.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <!-- Set 3 -->
+            <div class="row1">
+                <div class="media1">Measurement</div>
+                <div class="media1">VISION-XL</div>
+                <div class="media1">LVTINO</div>
+                <div class="media1"><span class="avis-highlight">AVIS</span></div>
+                <div class="media1"><span class="avis-flash-label">AVIS <span class="flash-emph">Flash</span></span></div>
+            </div>
+            <div class="row1">
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Inpainting/3_Measurement.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Inpainting/3_VISION-XL.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Inpainting/3_LVTINO.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Inpainting/3_AVIS.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Inpainting/3_AVIS-Flash.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <h3 class="subtitle is-size-5 has-text-centered">Gaussian Deblur</h3>
+            <!-- Set 1 -->
+            <div class="row1">
+                <div class="media1">Measurement</div>
+                <div class="media1">VISION-XL</div>
+                <div class="media1">LVTINO</div>
+                <div class="media1"><span class="avis-highlight">AVIS</span></div>
+                <div class="media1"><span class="avis-flash-label">AVIS <span class="flash-emph">Flash</span></span></div>
+            </div>
+            <div class="row1">
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Gaussian Deblur/1_Measurement.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Gaussian Deblur/1_VISION-XL.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Gaussian Deblur/1_LVTINO.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Gaussian Deblur/1_AVIS.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Gaussian Deblur/1_AVIS-Flash.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <!-- Set 2 -->
+            <div class="row1">
+                <div class="media1">Measurement</div>
+                <div class="media1">VISION-XL</div>
+                <div class="media1">LVTINO</div>
+                <div class="media1"><span class="avis-highlight">AVIS</span></div>
+                <div class="media1"><span class="avis-flash-label">AVIS <span class="flash-emph">Flash</span></span></div>
+            </div>
+            <div class="row1">
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Gaussian Deblur/2_Measurement.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Gaussian Deblur/2_VISION-XL.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Gaussian Deblur/2_LVTINO.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Gaussian Deblur/2_AVIS.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Gaussian Deblur/2_AVIS-Flash.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <!-- Set 3 -->
+            <div class="row1">
+                <div class="media1">Measurement</div>
+                <div class="media1">VISION-XL</div>
+                <div class="media1">LVTINO</div>
+                <div class="media1"><span class="avis-highlight">AVIS</span></div>
+                <div class="media1"><span class="avis-flash-label">AVIS <span class="flash-emph">Flash</span></span></div>
+            </div>
+            <div class="row1">
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Gaussian Deblur/3_Measurement.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Gaussian Deblur/3_VISION-XL.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Gaussian Deblur/3_LVTINO.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Gaussian Deblur/3_AVIS.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Gaussian Deblur/3_AVIS-Flash.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <h3 class="subtitle is-size-5 has-text-centered">Super Resolution</h3>
+            <!-- Set 1 -->
+            <div class="row1">
+                <div class="media1">Measurement</div>
+                <div class="media1">VISION-XL</div>
+                <div class="media1">LVTINO</div>
+                <div class="media1"><span class="avis-highlight">AVIS</span></div>
+                <div class="media1"><span class="avis-flash-label">AVIS <span class="flash-emph">Flash</span></span></div>
+            </div>
+            <div class="row1">
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Super Resolution/1_Measurement.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Super Resolution/1_VISION-XL.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Super Resolution/1_LVTINO.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Super Resolution/1_AVIS.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Super Resolution/1_AVIS-Flash.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <!-- Set 2 -->
+            <div class="row1">
+                <div class="media1">Measurement</div>
+                <div class="media1">VISION-XL</div>
+                <div class="media1">LVTINO</div>
+                <div class="media1"><span class="avis-highlight">AVIS</span></div>
+                <div class="media1"><span class="avis-flash-label">AVIS <span class="flash-emph">Flash</span></span></div>
+            </div>
+            <div class="row1">
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Super Resolution/2_Measurement.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Super Resolution/2_VISION-XL.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Super Resolution/2_LVTINO.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Super Resolution/2_AVIS.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Super Resolution/2_AVIS-Flash.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <!-- Set 3 -->
+            <div class="row1">
+                <div class="media1">Measurement</div>
+                <div class="media1">VISION-XL</div>
+                <div class="media1">LVTINO</div>
+                <div class="media1"><span class="avis-highlight">AVIS</span></div>
+                <div class="media1"><span class="avis-flash-label">AVIS <span class="flash-emph">Flash</span></span></div>
+            </div>
+            <div class="row1">
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Super Resolution/3_Measurement.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Super Resolution/3_VISION-XL.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Super Resolution/3_LVTINO.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Super Resolution/3_AVIS.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="media1">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/Comparisons/Pexels/Super Resolution/3_AVIS-Flash.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <hr>
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <h2 class="title is-2 is-centered has-text-centered" style="margin-top: 30px;">Autoregressive Propagation</h2>
+            <div class="hero is-full">
+                <div class="results-single">
+                    <img src="assets/fig_ar_prop.jpg" style="max-width: 75%; height: auto; display: block; margin: 0 auto;">
+                </div>
+            </div>
+            <div style="margin-top: 1rem;white-space: nowrap; text-align: center;">
+                Autoregressive propagation alone preserves temporal context, but gradually drifts from the desired restoration when later chunks are generated from pure noise (middle row). <br>
+                AVIS mitigates this drift by initializing reverse diffusion from a measurement-consistent estimate, keeping each chunk closer to the target restoration trajectory (bottom row).
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <h2 class="title is-2 is-centered has-text-centered" style="margin-top: 30px;">Long Video Restoration</h2>
+            <div class="hero is-full">
+                <div class="results-single">
+                    <img src="assets/fig_long_video.jpg" style="max-width: 75%; height: auto; display: block; margin: 0 auto;">
+                </div>
+            </div>
+            <div style="white-space: nowrap; text-align: center;">
+                Stable restoration of a 1-minute, 960-frame video by periodically re-injecting measurement consistency to suppress error accumulation over time.
+            </div>
+        </div>
+    </section>
+    <hr>
+
+</body>
+</html>

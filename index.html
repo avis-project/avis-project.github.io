@@ -81,6 +81,16 @@
       white-space: nowrap;
       color: #2790D7;
       }
+
+      /* Section title sizes */
+      .section h2.title.is-2 {
+      font-size: 28px;
+      margin-bottom: 1.25rem;
+      }
+
+      .section h3.subtitle.is-size-5 {
+      font-weight: 600;
+      }
     </style>
 
 </head>
@@ -92,7 +102,7 @@
             <div class="container is-max-desktop">
                 <div class="columns is-centered">
                     <div class="column has-text-centered">
-                        <h1 class="title is-1 publication-title" style="font-size: 44px; margin-bottom: 1.25rem;"><span class="avis" style="color: #D76FAD;">AVIS</span>: Accelerating Video Inverse Problem Solvers with Autoregressive Diffusion Models</h1>
+                        <h1 class="title is-1 publication-title" style="font-size: clamp(26px, 3.5vw, 36px); line-height: 1.25; margin-bottom: 1rem;"><span class="avis" style="color: #D76FAD;">AVIS</span>: Accelerating Video Inverse Problem Solvers with Autoregressive Diffusion Models</h1>
                         <!-- Authors -->
                         <div class="is-size-5 publication-authors">
                           <span class="author-block">
@@ -382,6 +392,7 @@
                 </div>
             </div>
 
+
             <h3 class="subtitle is-size-5 has-text-centered">Spatio-Temporal Average</h3>
             <p class="has-text-centered is-size-7 has-text-grey" style="margin-top: -0.5rem; margin-bottom: 0.5rem;">
                 To view in full resolution, please download the videos.
@@ -508,6 +519,7 @@
                     </video>
                 </div>
             </div>
+
 
             <h3 class="subtitle is-size-5 has-text-centered">Inpainting</h3>
             <p class="has-text-centered is-size-7 has-text-grey" style="margin-top: -0.5rem; margin-bottom: 0.5rem;">
@@ -636,6 +648,7 @@
                 </div>
             </div>
 
+
             <h3 class="subtitle is-size-5 has-text-centered">Gaussian Deblur</h3>
             <p class="has-text-centered is-size-7 has-text-grey" style="margin-top: -0.5rem; margin-bottom: 0.5rem;">
                 To view in full resolution, please download the videos.
@@ -762,6 +775,7 @@
                     </video>
                 </div>
             </div>
+
 
             <h3 class="subtitle is-size-5 has-text-centered">Super Resolution</h3>
             <p class="has-text-centered is-size-7 has-text-grey" style="margin-top: -0.5rem; margin-bottom: 0.5rem;">
@@ -902,7 +916,7 @@
                     <img src="assets/fig_ar_prop.jpg" style="max-width: 75%; height: auto; display: block; margin: 0 auto;">
                 </div>
             </div>
-            <div style="margin-top: 1rem;white-space: nowrap; text-align: center;">
+            <div style="margin-top: 1rem; text-align: center;">
                 Autoregressive propagation alone preserves temporal context, but gradually drifts from the desired restoration when later chunks are generated from pure noise (middle row). <br>
                 AVIS mitigates this drift by initializing reverse diffusion from a measurement-consistent estimate, keeping each chunk closer to the target restoration trajectory (bottom row).
             </div>
@@ -918,7 +932,7 @@
                     <img src="assets/fig_long_video.jpg" style="max-width: 75%; height: auto; display: block; margin: 0 auto;">
                 </div>
             </div>
-            <div style="white-space: nowrap; text-align: center;">
+            <div style="text-align: center;">
                 Stable restoration of a 1-minute, 960-frame video by periodically re-injecting measurement consistency to suppress error accumulation over time.
             </div>
         </div>
